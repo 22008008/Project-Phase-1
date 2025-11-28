@@ -4,13 +4,13 @@
   The design methodology outlines the comprehensive plan used to develop, train, and validate the adaptive traffic control system.
 
 **A. Sequence of Steps**
-```The project execution is organized into three distinct, sequential phases:
-Phase 1: Environment Setup
+The project execution is organized into three distinct, sequential phases:
+***Phase 1:*** Environment Setup
   Defining the road network geometry and traffic demand using SUMO's XML files (.net.xml, .rou.xml).Establishing the connection and command link via the TraCI (Traffic Control Interface) to Python.
-Phase 2:
+***Phase 2:***
    AI Model TrainingThe core iterative cycle where the DDQN+PER Agent observes the environment state, chooses an action, receives the multi-objective reward, and updates its Policy Network weights.Integrating and testing the Emergency Vehicle Priority override module.
-Phase 3:
-  Evaluation & DeploymentTesting the final, converged model against baselines (Fixed-Time, standard DQN).Analyzing key performance metrics (bar{W}, Q, E) and preparing the optimal signal strategy for deployment.```
+***Phase 3:***
+  Evaluation & DeploymentTesting the final, converged model against baselines (Fixed-Time, standard DQN).Analyzing key performance metrics (bar{W}, Q, E) and preparing the optimal signal strategy for deployment.
 **B. Architecture and Diagrams**
 The system architecture is based on a standard Reinforcement Learning framework, ensuring a clear flow of data between the environment and the agent.
 **System Architecture Flowchart:**
