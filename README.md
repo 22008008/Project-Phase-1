@@ -104,7 +104,11 @@ TC-3: Highly Unbalanced Flow: Tested the agent's robustness and dynamic decision
 
 **C. References**
 1 . K. Gupta, R. Jain, V. Kumar, “Multi-Agent DDQN with Prioritized Experience Replay for Traffic Signal Optimization,” IET Intelligent Transport Systems, vol. 18, no. 1, pp. 77–89, 2024.
+
 2 . J. Chen, H. Wei, Z. Li, “HiLight: Hierarchically and Cooperatively Learning Traffic Signal Control,” AAAI Conference on Artificial Intelligence, pp. 612–620, 2021.
+
 3 . B. Xu, K. Li, P. Wang, “HumanLight: RL-Based Person-Throughput Optimization for Urban Traffic Signals,” Berkeley Press, vol. 7, 2024.
+
 4 . R. Zhou, X. Yu, C. Chen, “Constrained Traffic Signal Control Under Competing Public Transport Priorities Using Safe RL,” Transportation Research Part C, vol. 168, 2025.
+
 5 . G. Lee, D. Jung, M. Park, “RUTGe: Realistic Urban Traffic Generator for RL-Based Control,” IEEE Trans. Intelligent Transport Systems, vol. 26, 2025.
