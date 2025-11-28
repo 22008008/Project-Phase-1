@@ -4,7 +4,9 @@
   The design methodology outlines the comprehensive plan used to develop, train, and validate the adaptive traffic control system.
 
 **A. Sequence of Steps**
+
 The project execution is organized into three distinct, sequential phases:
+
 ***Phase 1:*** Environment Setup
   Defining the road network geometry and traffic demand using SUMO's XML files (.net.xml, .rou.xml).Establishing the connection and command link via the TraCI (Traffic Control Interface) to Python.
 ***Phase 2:***
@@ -30,7 +32,7 @@ The system utilizes industry-standard tools for simulation and artificial intell
 **AI Frameworks: **Python 3.x environment leveraging TensorFlow/PyTorch for neural network implementation.
 **Interface:** TraCI for communication between the Python agent and SUMO.
 
-```**2. Project Implementation**
+**2. Project Implementation**
 Project implementation details the mathematical foundation, the custom reward function, and the necessary code structure.
 
 **A. Algorithm and Formulae**
@@ -74,11 +76,11 @@ def take_step(agent, current_state, TLS_ID, next_phase, env):
 ```
 **3. Output, Results, Testcases**
 
-A. Output and Results
+**A. Output and Results**
 
 <img width="1232" height="719" alt="Screenshot 2025-11-28 135731" src="https://github.com/user-attachments/assets/955ff5c4-ae24-4a20-9a38-ed03eef5b624" />
 
-B. Test Cases and Validation
+**B. Test Cases and Validation**
 
 <img width="1442" height="220" alt="Screenshot 2025-11-28 135739" src="https://github.com/user-attachments/assets/a2fbe868-1d26-4bfe-a73f-a5bab5ea359d" />
 
