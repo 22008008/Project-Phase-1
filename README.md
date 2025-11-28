@@ -1,5 +1,8 @@
 # AI-Based Safe and Sustainable Traffic Signal System (DDQN + PER)
 
+**Introduction**
+Traffic congestion remains one of the most pressing urban issues, leading to delays, air pollution, and safety risks.Conventional traffic signal systems operate on predefined cycles and fail to handle dynamic traffic variations effectively.Adaptive traffic control systems have improved performance but remain limited in scalability and energy efficiency.Recent advancements in Artificial Intelligence (AI) and Reinforcement Learning (RL) offer promising solutions for intelligent traffic signal control. RL enables systems to learn optimal strategies by interacting with the environment and receiving rewards based on performance. Unlike rule-based methods, RL adapts in real time to changing conditions,learning from experience to improve performance.This paper presents an AI-based Safe and Sustainable Traffic Signal system that leverages RL to enhance road safety and minimize environmental impact. The proposed model introduces a hybrid DDQN + PER approach for faster and more stable training, integrates emergency vehicle Prioritization for critical response scenarios, and optimizes traffic flow while reducing emissions. The proposed framework aims to contribute to sustainable smart cities by balancing mobility,safety, and environmental responsibility
+
 **1. The Design Methodology**
   The design methodology outlines the comprehensive plan used to develop, train, and validate the adaptive traffic control system.
 
