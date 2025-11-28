@@ -29,32 +29,31 @@ The flowchart visually represents the State - arrow - Action - Reward - Update l
 The system utilizes industry-standard tools for simulation and artificial intelligence:
 
 **Simulation Environment: SUMO** (Simulation of Urban Mobility) for realistic traffic modeling.
-**AI Frameworks: **Python 3.x environment leveraging TensorFlow/PyTorch for neural network implementation.
+
+**AI Frameworks:** Python 3.x environment leveraging TensorFlow/PyTorch for neural network implementation.
+
 **Interface:** TraCI for communication between the Python agent and SUMO.
 
 **2. Project Implementation**
 Project implementation details the mathematical foundation, the custom reward function, and the necessary code structure.
 
 **A. Algorithm and Formulae**
-DDQN Target Q-Value Formula
-The Double Deep Q-Network (DDQN) utilizes two separate networks to stabilize the learning process by decoupling action selection and value evaluation.
+DDQN Target Q-Value Formula,The Double Deep Q-Network (DDQN) utilizes two separate networks to stabilize the learning process by decoupling action selection and value evaluation.
 
 <img width="663" height="72" alt="image" src="https://github.com/user-attachments/assets/573e2c40-b955-4183-9e25-3e1d6930442e" />
-
 
 CO2/Fuel-Aware Reward FormulaThis custom reward function promotes environmental sustainability by penalizing the combined total of traffic congestion (Q_t) and CO2 emissions (E_t). alpha and 
 beta are weight coefficients.
 
 <img width="313" height="84" alt="image" src="https://github.com/user-attachments/assets/5df41d23-1103-4853-9895-189ec45e8a76" />
 
-**UML Diagram : **
+**UML Diagram :**
 
 <img width="1402" height="709" alt="Screenshot 2025-11-28 131915" src="https://github.com/user-attachments/assets/1fbb09de-7c7b-4f0f-ae79-78d4df8c245b" />
 
-**Flow Chart : **
+**Flow Chart :** 
 
 <img width="1435" height="460" alt="Screenshot 2025-11-28 130229" src="https://github.com/user-attachments/assets/b9fe73cf-a048-4f54-be56-0d672f30b684" />
-
 
 **B. Code Segments**
 The following segments illustrate the implementation of the reward logic and the agent's interaction with the simulation environment.
