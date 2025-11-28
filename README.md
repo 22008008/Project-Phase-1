@@ -10,7 +10,7 @@ Phase 1: Environment Setup
 Phase 2:
    AI Model TrainingThe core iterative cycle where the DDQN+PER Agent observes the environment state, chooses an action, receives the multi-objective reward, and updates its Policy Network weights.Integrating and testing the Emergency Vehicle Priority override module.
 Phase 3:
-  Evaluation & DeploymentTesting the final, converged model against baselines (Fixed-Time, standard DQN).Analyzing key performance metrics ($\bar{W}, Q, E$) and preparing the optimal signal strategy for deployment.```
+  Evaluation & DeploymentTesting the final, converged model against baselines (Fixed-Time, standard DQN).Analyzing key performance metrics (bar{W}, Q, E) and preparing the optimal signal strategy for deployment.```
 **B. Architecture and Diagrams**
 The system architecture is based on a standard Reinforcement Learning framework, ensuring a clear flow of data between the environment and the agent.
 **System Architecture Flowchart:**
