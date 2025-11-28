@@ -47,6 +47,15 @@ beta are weight coefficients.
 
 <img width="313" height="84" alt="image" src="https://github.com/user-attachments/assets/5df41d23-1103-4853-9895-189ec45e8a76" />
 
+**UML Diagram**
+
+<img width="1402" height="709" alt="Screenshot 2025-11-28 131915" src="https://github.com/user-attachments/assets/1fbb09de-7c7b-4f0f-ae79-78d4df8c245b" />
+
+**Flow Chart**
+
+<img width="1435" height="460" alt="Screenshot 2025-11-28 130229" src="https://github.com/user-attachments/assets/b9fe73cf-a048-4f54-be56-0d672f30b684" />
+
+
 **B. Code Segments**
 The following segments illustrate the implementation of the reward logic and the agent's interaction with the simulation environment.
 **Python Function for CO2-Fuel-Aware Reward**
